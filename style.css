@@ -135,3 +135,12 @@
 .ex-7-img {
     transition: 300ms linear;
 }
+
+.ex-8-img:hover {
+    filter: sepia(0.5) saturate(0.8);
+    border-radius: 20px;
+}
+
+.ex-8-img {
+    transition: 0.5s linear;
+}
