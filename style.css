@@ -172,3 +172,23 @@
     90% { transform: rotate(300deg); }
     100% { transform: rotate(0); }
 }
+
+.ex-12-button:hover .ex-12-top-white {
+    animation: move-top 2s linear;
+}
+
+.ex-12-button:hover .ex-12-bottom-white {
+    animation: move-bottom 2s linear;
+}
+
+@keyframes move-top {
+    0% { left: 10%; }
+    50% { left: 70% }
+    100% { left: 10%; }
+}
+
+@keyframes move-bottom {
+    0% { right: 20%; }
+    50% { right: 70% }
+    100% { right: 20%; }
+}
