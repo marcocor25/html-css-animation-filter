@@ -119,3 +119,11 @@
 .ex-5-square {
     transition: 300ms linear;
 }
+
+.ex-6-img:hover {
+    filter: grayscale(1);
+}
+
+.ex-6-img {
+    transition: 300ms linear;
+}
