@@ -192,3 +192,29 @@
     50% { right: 70% }
     100% { right: 20%; }
 }
+
+.ex-13-button:hover .ex-13-top-white {
+    animation: move-top-full 3s linear;
+}
+
+.ex-13-button:hover .ex-13-bottom-white {
+    animation: move-bottom-full 3s linear;
+}
+
+@keyframes move-top-full {
+    0% { left: 10%; top: -10%; }
+    30% { left: 70%; top: -10%; }
+    50% { left: 70%; top: 100%; }
+    75% { left: 0; top: 100%; }
+    90% { left: -20%; top: -10%; }
+    100% { left: 10%; top: -10%; }
+}
+
+@keyframes move-bottom-full {
+    0% { right: 10%; bottom: -10%; }
+    30% { right: 70%; bottom: -10%; }
+    50% { right: 70%; bottom: 100%; }
+    75% { right: 0; bottom: 100%; }
+    90% { right: -20%; bottom: -10%; }
+    100% { right: 10%; bottom: -10%; }
+}
