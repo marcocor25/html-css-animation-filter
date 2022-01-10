@@ -88,3 +88,8 @@
     border-radius: 50%;
     transition: 1s linear;
 }
+
+.ex-4-square:hover {
+    opacity: 0;
+    transition: 1s linear;
+}
