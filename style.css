@@ -127,3 +127,11 @@
 .ex-6-img {
     transition: 300ms linear;
 }
+
+.ex-7-img:hover {
+    filter: grayscale(1) sepia(0.5);
+}
+
+.ex-7-img {
+    transition: 300ms linear;
+}
