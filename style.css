@@ -67,3 +67,19 @@
     width: 60px;
     height: 20px;
 }
+
+/* ---------------------------------------------------------------------------------- */
+
+/* SVOLGIMENTO ESERIZIO */
+
+/* ---------------------------------------------------------------------------------- */
+
+.ex-1-square:hover {
+    background-color: red;
+    transition: background-color linear 1s;
+}
+
+.ex-2-square:active {
+    width: 100%;
+    transition: 1s linear;
+}
