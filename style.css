@@ -70,7 +70,7 @@
 
 /* ---------------------------------------------------------------------------------- */
 
-/* SVOLGIMENTO ESERIZIO */
+/* SVOLGIMENTO ESERCIZIO */
 
 /* ---------------------------------------------------------------------------------- */
 
@@ -153,4 +153,22 @@
 
 .ex-9-img {
     transition: 1.5s ease-in-out;
+}
+
+.ex-10-icon {
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(1turn) }
+}
+
+.ex-11-icon:hover {
+    animation: spin-quarter 1s linear;
+}
+
+@keyframes spin-quarter {
+    0% { transform: rotate(0); }
+    90% { transform: rotate(300deg); }
+    100% { transform: rotate(0); }
 }
