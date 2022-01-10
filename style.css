@@ -144,3 +144,13 @@
 .ex-8-img {
     transition: 0.5s linear;
 }
+
+.ex-9-img:hover {
+    filter: sepia(0.5) saturate(0.8);
+    transform: scale(1.5, 1.5);
+    border-radius: 20px;
+}
+
+.ex-9-img {
+    transition: 1.5s ease-in-out;
+}
